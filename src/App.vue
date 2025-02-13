@@ -1,6 +1,6 @@
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
 <script setup>
+
 import { ref, onMounted } from 'vue';
 import gsap from 'gsap';
 // import loveSong from './assets/love-song.mp3'; // Optional music
