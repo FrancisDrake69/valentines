@@ -100,7 +100,6 @@ const reconsiderYes = () => {
     <div class="p-4 flex justify-center">
       <iframe
           class="w-full sm:w-2/3 md:w-1/2 aspect-video rounded-lg shadow-md"
-          src="https://www.youtube.com/embed/o-MY18URLFM?si=NarHhpP6BqtzW8BC?autoplay=1&mute=1"
           frameborder="0">
       </iframe>
     </div>
