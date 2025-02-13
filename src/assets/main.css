@@ -1,0 +1,58 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+  /* styles.css */
+  .valentine-button {
+    font-weight: 600; /* Make the font a bit bolder */
+    border-radius: 9999px; /* Fully rounded edges */
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2); /* Shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+
+  .valentine-button:hover {
+    transform: scale(1.05); /* Make the button grow on hover */
+    box-shadow: 0 6px 30px rgba(255, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+
+  .valentine-button:focus {
+    outline: none;
+    ring: 2px solid #fca5a5; /* Focus ring */
+    ring-opacity: 0.5;
+  }
+
+
+}
